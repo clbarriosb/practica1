@@ -65,7 +65,7 @@ public class Practica1 {
         //Punto 22. Password
 
         while(true){
-            System.out.println("Ingrese la contraseña");
+            System.out.println("Ingrese la contraseña para revelar el secreto");
             String contrasena = reader.nextLine();
             if (contrasena.equals("hola")){
                 System.out.println("El secreto es: chao");
